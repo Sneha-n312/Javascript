@@ -1,0 +1,2 @@
+We talk about Variables, Types of variable declarations, When to use " " or ' ' and String Concatenation
+in JS here
