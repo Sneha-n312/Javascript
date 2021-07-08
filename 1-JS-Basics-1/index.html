@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Javascript Basics</title>
+</head>
+
+<body>
+    <h1>Hello world</h1>
+    <a href="about.html">About</a>
+    <!-- Inline JS.-->
+    <!--<button onclick="alert('Hello world')">Click Me</button>-->
+    <!--alert() - pop up function-->
+    <!-- Inline JS end-->
+
+    <!-- Script tags must always be in the bottom after all ypur html.
+         Only that way all the html is loaded and you get the logic, 
+        otherwise since JS code is usually bigger, if you place it in head, 
+        maybe html is not loaded yet and JS might not work-->
+    <!-- Internal JS-->
+    <!--<button class="btn">Click Me</button>
+        <button class="btn">Click Me</button>
+        <button class="btn">ClickMe</button>
+        <button class="btn">Click Me</button>
+        <button class="btn">Click Me</button>
+        <script>
+            document.querySelectorAll('.btn').forEach((item) => {
+                item.addEventListener('click', () => {
+                    alert("This is Good")
+                })
+            })
+        </script> -->
+    <!-- Internal JS ends-->
+
+    <!--External JS-->
+    <script src="./app.js"></script>
+    <!--External JS ends-->
+
+</body>
+
+</html>
+
+<!-------------------------------------------Shortcuts------------------------------------------------>
+<!-- ctrl + /-->
+<!-- shift + alt + up/down arrow - Copy line up or down-->
+<!-- select current line ctrl + L-->
