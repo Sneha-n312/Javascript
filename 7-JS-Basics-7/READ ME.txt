@@ -1,0 +1,1 @@
+We discuss about Arrays and Functions, Different ways of using functions in JS
