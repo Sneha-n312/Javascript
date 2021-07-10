@@ -1,0 +1,1 @@
+We discuss about conditional statements and Logical operators in JS
