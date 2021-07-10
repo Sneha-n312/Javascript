@@ -1,0 +1,1 @@
+We discuss about different types of datatypes, primitive datatypes, typeof operator available in JS
